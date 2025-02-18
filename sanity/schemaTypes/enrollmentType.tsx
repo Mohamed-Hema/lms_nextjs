@@ -27,6 +27,7 @@ export const enrollmentType = defineType({
       validation: (rule) => rule.required().min(0),
       description: "The amount paid for the course enrollment in cents",
     }),
+
     defineField({
       name: "paymentId",
       title: "Payment ID",
